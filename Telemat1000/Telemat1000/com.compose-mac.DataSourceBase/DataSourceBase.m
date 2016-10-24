@@ -32,6 +32,7 @@ static const int kTimeoutInSeconds = 30;
 }
 
 - (void)awakeFromNib {
+	[super awakeFromNib];
 }
 
 - (void)refreshFromControl:(id)sender {
