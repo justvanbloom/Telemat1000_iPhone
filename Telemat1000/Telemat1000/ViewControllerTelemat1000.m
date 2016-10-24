@@ -11,6 +11,7 @@
 @implementation ViewControllerTelemat1000 {
 	NSDictionary * _bindings;
 }
+@synthesize prefersStatusBarHidden;
 
 - (void)viewWillAppear:(BOOL)animated {
 	[super viewWillAppear:animated];
